@@ -1,0 +1,37 @@
+{
+  "name": "react-sass-php",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "build": "gulp clean && gulp copy && gulp sass && gulp js && gulp uglify",
+    "dev": "gulp clean && gulp copy && gulp sass && gulp js && gulp dev"
+  },
+  "author": "Clann",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2016": "^6.22.0",
+    "babelify": "^7.3.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "browser-sync": "^2.18.8",
+    "browserify": "^14.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "jquery": "^3.1.1",
+    "licensify": "^3.1.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "tether": "^1.4.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  }
+}
